@@ -115,6 +115,13 @@
         justify-content: flex-start;
     }
 
+    .home-btn {
+        font-size: 14px;
+        padding: 14px 28px;
+        display: inline-block;
+        margin-top: 24px;
+    }
+
     .copyright {
         margin: 32px auto;
         text-align: left;
@@ -144,6 +151,13 @@
     p {
         font-size: 14px;
         line-height: 18px;
+    }
+
+    .home-btn {
+        font-size: 12px;
+        padding: 12px 24px;
+        display: inline-block;
+        margin-top: 16px;
     }
 
     .features-card {
