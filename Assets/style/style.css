@@ -1,6 +1,7 @@
 :root {
     --color-white: #ffffff;
     --color-grey: #adadad;
+    --color-black: #0D0D0D;
 }
 
 html {
@@ -124,7 +125,7 @@ a:focus {
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
-    color: #ffffff;
+    color: var(--color-white);
     border-radius: 4px;
     background: #0B0B0B;
     box-shadow: 0px 4px 42px 0px rgba(61, 61, 61, 0.12);
@@ -134,7 +135,37 @@ a:focus {
 
 
 .home-btn:hover {
-    color: #ffffff;
+    color: var(--color-white);
+}
+
+.input-email {
+    border-radius: 4px;
+    border: 1px solid #4D4D4D;
+    background: var(--color-white);
+    padding: 8px 8px 8px 24px;
+    width: 100%;
+}
+
+input[type=email]::placeholder {
+    color: var(--color-grey);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.submit-btn {
+    display: flex;
+    align-items: center;
+    height: 75%;
+    padding: 0px 8px;
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    transform: translateY(-50%);
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border: none;
+    border-radius: 4px;
 }
 
 .features-card {
